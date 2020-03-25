@@ -1,0 +1,130 @@
+File verbosity level: 9
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2020-03-25 15:10:05.119 (   0.002s) [                ]             loguru.cpp:755   INFO| Logging to 'totvsls.log', mode: 'w', verbosity: 9
+(   0.002s) [main thread     ]             loguru.cpp:591   | arguments: C:\\Users\\cesar\\.vscode\\extensions\\totvs.tds-vscode-1.0.1/node_modules/@totvs/tds-ls/bin/windows/advpls.exe --language-server --log-file=totvsls.log --record=totvsls
+(   0.002s) [main thread     ]             loguru.cpp:594   | Current dir: d:\Cursos\Semana Omnistack\backend
+(   0.002s) [main thread     ]             loguru.cpp:596   | stderr verbosity: -3
+(   0.002s) [main thread     ]             loguru.cpp:597   | -----------------------------------
+(   0.004s) [main thread     ]    security_manager.cc:799   | lsRsaInit
+(   0.091s) [main thread     ]    security_manager.cc:1005  | userRsaInit
+(   0.097s) [main thread     ]    security_manager.cc:1024  | Loading user prv key.
+(   0.102s) [main thread     ]    security_manager.cc:1055  | Loading user pub key.
+(   0.107s) [main thread     ]    security_manager.cc:1154  | Loading user symm key.
+(   0.114s) [querydb         ]msg_lsp_initialize_requ:507   | Start Running initialize
+(   0.114s) [querydb         ]msg_lsp_initialize_requ:513   | Init parameters: {"compilationDatabaseCommand":"","compilationDatabaseDirectory":"","cacheDirectory":"","cacheFormat":"json","resourceDirectory":"","discoverSystemIncludes":true,"extraClangArguments":[],"progressReportFrequencyMs":500,"emitQueryDbBlocked":false,"emitInactiveRegions":false,"showDocumentLinksOnIncludes":true,"codeLens":{"localVariables":true},"completion":{"enableSnippets":true,"detailedLabel":false,"dropOldRequests":true,"filterAndSort":true,"includeMaxPathSize":30,"includeSuffixWhitelist":[".h",".hpp",".hh",".ch"],"includeBlacklist":[],"includeWhitelist":[]},"formatting":{"enabled":false},"diagnostics":{"blacklist":[],"whitelist":[],"frequencyMs":0,"onParse":true,"onType":true},"highlight":{"enabled":false,"blacklist":[],"whitelist":[]},"index":{"attributeMakeCallsToCtor":true,"blacklist":[],"whitelist":[],"comments":2,"enabled":true,"logSkippedPaths":false,"threads":0},"workspaceSymbol":{"maxNum":1000,"sort":true},"xref":{"maxNum":2000},"enableIndexOnDidChange":false}
+(   0.114s) [querydb         ]msg_lsp_initialize_requ:521   | [querydb] Initialize in directory d:/cursos/semana omnistack/backend with uri file:///d%3A/Cursos/Semana%20Omnistack/backend
+(   0.114s) [querydb         ]msg_lsp_initialize_requ:578   | Using -resource-dir=d:/cursos/semana omnistack/backend/default_resource_directory
+(   0.114s) [querydb         ]msg_lsp_initialize_requ:581   | Send initialization before starting indexers, so we don't send a status update too early.
+(   0.114s) [querydb         ]msg_lsp_initialize_requ:601   | Set project root.
+(   0.114s) [querydb         ]               timer.cc:41    | compile_commands.json advpllang time took 0.0 ms
+(   0.114s) [querydb         ]               timer.cc:41    | compile_commands.json our time took 0.0 ms
+(   0.114s) [querydb         ]               timer.cc:41    | [perf] Loaded compilation entries (0 files) took 0.86 ms
+(   0.114s) [querydb         ]msg_lsp_initialize_requ:632   | Starting 3 indexers
+(   0.114s) [stdout          ]               timer.cc:41    | [e2e] Running  took 0.0 ms
+(   0.114s) [stdout          ]               timer.cc:41    | [e2e] Running initialize took 0.467 ms
+(   0.115s) [querydb         ]               timer.cc:41    | [perf] Dispatched initial index requests took 0.0 ms
+(   0.115s) [querydb         ]msg_lsp_initialize_requ:661   | End Running initialize
+(   0.124s) [querydb         ]msg_lsp_initialized_not:22    | Got Initialized Notification
+(   0.124s) [querydb         ]msg_totvsserver_change_:45    | Start Running $totvsserver/changeSetting
+(   0.124s) [querydb         ]msg_totvsserver_change_:50    | ChangeSetting : with scope advpls, key autocomplete, value LS
+(   0.124s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager ChangeSetting server  took 0.12 ms
+(   0.124s) [querydb         ]msg_totvsserver_change_:94    | End Running $totvsserver/changeSetting
+(   0.124s) [stdout          ]               timer.cc:41    | [e2e] Running  took 9.9660 ms
+(   0.124s) [querydb         ]msg_totvsserver_change_:45    | Start Running $totvsserver/changeSetting
+(   0.124s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/changeSetting took 0.407 ms
+(   0.124s) [querydb         ]msg_totvsserver_change_:50    | ChangeSetting : with scope advpls, key notificationlevel, value errors warnings and infos
+(   0.124s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager ChangeSetting server  took 0.3 ms
+(   0.124s) [querydb         ]msg_totvsserver_change_:94    | End Running $totvsserver/changeSetting
+(   0.124s) [querydb         ]msg_totvsserver_reconne:46    | Start Running $totvsserver/reconnect
+(   0.124s) [querydb         ]msg_totvsserver_reconne:49    | Reconnecting server with connectionToken: djI6bzBlc2Judnc2NWs4NGcxZnppMXNxcGp4dmY2NXE6MTp6ZDZqeHotcHJkLXByb3RoZXVzLnRvdHZzY2xvdWQuY29tLmJyOjIwMDA6MTo3LjAwLjE3MDExN0E=:djE6WkQ2SlhaOmFkbWluOmhrMUpyclJQQ2tTN1Noc1UxZlRnSkgxQjdpQW9pcURudVBidWR2YThaZ009|djI6MTU4NTE1OTcxNjowOjE6LTE=.wBp94ZiAqQsbyefIucoCHcrsz+gp5uNCVw/ba7HjcgHvPrTOyAYU/wnwoJ6OoW+tjvrB2FsF5K6qQ2kXZXUCknbCdAdr0QMb2bbGInMiu4Z3uNPMTWGbvkP/WGm3VthGvGvDdJ9oOMxp8SCu4tjTxyXvAMl7xm1UYLQJxoGBBiVjzI9orSxISlHAroBSSyV+xambc/VzK7aLARk9vrlT2wC3PjdBqX7YFa6jRZhae2XoaWGznubZ3PcW4cTbsCau7Qud0YJAq0dywoQsz57q2xCuq5r2SJIpP8rwNbN3o7ukvOz1jZFkuQ5cTKLr61OTeN/VXpeULDXSfWFZC7X87w==
+(   0.124s) [querydb         ]  connection_manager.cc:294   | Starting reconnection to the server 'PRODUÇÃO - ZD6JXZ'
+(   0.125s) [querydb         ]    security_manager.cc:331   | authentic TRUE
+(   0.125s) [querydb         ]    security_manager.cc:469   | done hk1JrrRPCkS7ShsU1fTgJH1B7iAoiqDnuPbudva8ZgM=
+(   0.125s) [querydb         ]    security_manager.cc:479   | done password symmDecrypt (9)
+(   0.125s) [querydb         ]  connection_manager.cc:2766  | ConnectionManager::newConnection: zd6jxz-prd-protheus.totvscloud.com.br:2000 (20170117104539) [1]
+(   0.125s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/changeSetting took 1.1359 ms
+(   0.125s) [querydb         ]  connection_manager.cc:2770  | connected status: 0
+(   0.125s) [stdout          ]               timer.cc:41    | [e2e] Running  took 10.10681 ms
+(   0.125s) [stdout          ]               timer.cc:41    | [e2e] Running  took 10.10699 ms
+(   0.157s) [scan_includes   ]               timer.cc:41    | [perf] Scanning for includes took 41.41534 ms
+(   0.225s) [querydb         ]  connection_manager.cc:2770  | connected status: 1
+(   0.326s) [querydb         ]  connection_manager.cc:2770  | connected status: 1
+(   0.427s) [querydb         ]  connection_manager.cc:2770  | connected status: 1
+(   0.528s) [querydb         ]  connection_manager.cc:2770  | connected status: 1
+(   0.629s) [querydb         ]  connection_manager.cc:2770  | connected status: 1
+(   0.730s) [querydb         ]  connection_manager.cc:2773  | connected status: 2
+(   0.857s) [querydb         ]  connection_manager.cc:2780  | MS_DBGGETBUILD OK
+(   0.857s) [querydb         ]  connection_manager.cc:2790  | build: 7.00.170117A
+(   0.989s) [querydb         ]  connection_manager.cc:2799  | MS_DBGGETSERVERTYPE OK
+(   0.989s) [querydb         ]  connection_manager.cc:2818  | Server Type: 1 (TOTVSTEC)
+(   0.989s) [querydb         ]  connection_manager.cc:2827  | creating secureContext
+(   0.989s) [querydb         ]  connection_manager.cc:2829  | secureContext initialize
+(   1.736s) [querydb         ]  connection_manager.cc:2832  | asymmetric generateKeys
+(   1.736s) [querydb         ]  connection_manager.cc:2834  | secureContext initialized
+(  11.825s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager dbgmap exec took 9783.9773664 ms
+(  11.825s) [querydb         ]  connection_manager.cc:2930  | MS_DBGMAP OK
+(  11.825s) [querydb         ]  connection_manager.cc:2935  | programCount 204305
+(  11.852s) [querydb         ]  connection_manager.cc:2939  | Found function PSWADMIN (@86384/204305)
+(  11.852s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager dbgmap processed took 27.27221 ms
+(  11.852s) [stdout          ]               timer.cc:41    | [e2e] Running  took 11738.11726390 ms
+(  15.022s) [querydb         ]  connection_manager.cc:3010  | MS_DBGPSWADM_SEC OK
+(  15.022s) [querydb         ]  connection_manager.cc:3030  | User authenticated successfully.
+(  15.022s) [stdout          ]               timer.cc:41    | [e2e] Running  took 14907.14892932 ms
+(  15.163s) [querydb         ]    security_manager.cc:490   | encodedExtraInfo: djI6MTU4NTE1OTgyMDowOjE6LTE=
+(  15.169s) [querydb         ]    security_manager.cc:283   | signature jqNZ1op/SRSLA/mLSCx5nLT1BNEZYskueQBF78X9y5+3MNMO6JFsR1yCbWIAY9dDUE1K2aiNGsLpIBcLSBhRUnzzRX1nBKUReL3tAAzwqeHVcW3eVBO66kriI7RESJslZMt0OI0owSu9D5ex7vUD9jzgT1vL3p+2bChlVXfnIvtBJH55e0b4PP/uoILvLdSe+OQfEk9yh7lVQnqVVUnKb1bTyXQ9bpZLQzMo1AJz2U9S7RjqhCp3MwbsAX951OURG7BbvgQM0bTxNmHLuBRKpNI4nYJ+3eyFB6Wj46XRAAc+aaG8S9gA/fdpy12dzBSAxdCp7i4YYQXYOBtZP7+JYg==
+(  15.170s) [querydb         ]  connection_manager.cc:356   | Reconnection to the server 'PRODUÇÃO - ZD6JXZ' finished.
+(  15.170s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager Reconnect server for connectionToken: djI6bzBlc2Judnc2NWs4NGcxZnppMXNxcGp4dmY2NXE6MTp6ZDZqeHotcHJkLXByb3RoZXVzLnRvdHZzY2xvdWQuY29tLmJyOjIwMDA6MTo3LjAwLjE3MDExN0E=:djE6WkQ2SlhaOmFkbWluOmhrMUpyclJQQ2tTN1Noc1UxZlRnSkgxQjdpQW9pcURudVBidWR2YThaZ009|djI6MTU4NTE1OTgyMDowOjE6LTE=.jqNZ1op/SRSLA/mLSCx5nLT1BNEZYskueQBF78X9y5+3MNMO6JFsR1yCbWIAY9dDUE1K2aiNGsLpIBcLSBhRUnzzRX1nBKUReL3tAAzwqeHVcW3eVBO66kriI7RESJslZMt0OI0owSu9D5ex7vUD9jzgT1vL3p+2bChlVXfnIvtBJH55e0b4PP/uoILvLdSe+OQfEk9yh7lVQnqVVUnKb1bTyXQ9bpZLQzMo1AJz2U9S7RjqhCp3MwbsAX951OURG7BbvgQM0bTxNmHLuBRKpNI4nYJ+3eyFB6Wj46XRAAc+aaG8S9gA/fdpy12dzBSAxdCp7i4YYQXYOBtZP7+JYg== took 15045.15030322 ms
+(  15.170s) [stdout          ]               timer.cc:41    | [e2e] Running  took 15055.15040351 ms
+(  15.170s) [querydb         ]msg_totvsserver_reconne:97    | End Running $totvsserver/reconnect
+(  15.170s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(  15.170s) [stdout          ]               timer.cc:41    | [e2e] Running  took 15055.15040410 ms
+(  15.170s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/reconnect took 15046.15031099 ms
+(1831.008s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1892.032s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1915.536s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(1924.237s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2399.100s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2400.637s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2404.910s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2424.898s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2428.410s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2468.497s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2490.268s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2503.107s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2541.308s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2549.487s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2636.248s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2703.189s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2720.783s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2723.160s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2764.772s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2766.008s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2772.614s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2808.348s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2838.829s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2860.574s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2911.615s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2914.784s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(2926.961s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(3133.174s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(3223.646s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(3889.406s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4220.011s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4270.741s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4319.397s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4369.086s) [querydb         ]msg_totvsserver_change_:45    | Start Running $totvsserver/changeSetting
+(4369.086s) [querydb         ]msg_totvsserver_change_:50    | ChangeSetting : with scope advpls, key autocomplete, value LS
+(4369.086s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager ChangeSetting server  took 0.10 ms
+(4369.086s) [querydb         ]msg_totvsserver_change_:94    | End Running $totvsserver/changeSetting
+(4369.086s) [querydb         ]msg_totvsserver_change_:45    | Start Running $totvsserver/changeSetting
+(4369.086s) [querydb         ]msg_totvsserver_change_:50    | ChangeSetting : with scope advpls, key notificationlevel, value errors warnings and infos
+(4369.086s) [querydb         ]               timer.cc:41    | [perf] ConnectionManager ChangeSetting server  took 0.5 ms
+(4369.086s) [querydb         ]msg_totvsserver_change_:94    | End Running $totvsserver/changeSetting
+(4369.089s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/changeSetting took 7.7384 ms
+(4369.089s) [stdout          ]               timer.cc:41    | [e2e] Running $totvsserver/changeSetting took 7.7462 ms
+(4381.627s) [querydb         ]msg_totvslang_did_view.:24    | Start Running $advpl/textDocumentDidView
+(4421.323s) [querydb         ]msg_lsp_shutdown_reques:26    | Start Running shutdown
+(4421.323s) [querydb         ]msg_lsp_shutdown_reques:30    | End Running shutdown
+(4421.323s) [stdout          ]               timer.cc:41    | [e2e] Running shutdown took 0.422 ms
+(4421.327s) [querydb         ]msg_lsp_exit_notificati:18    | Exiting; got exit message
+(4421.328s) [querydb         ]             loguru.cpp:471   | atexit
